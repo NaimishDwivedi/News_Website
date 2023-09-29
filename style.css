@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #bfdde9;
+    position: absolute;
+    overflow-y: scroll;
+}
+.nav-bar{
+    height: 80px;
+    width: 100%;
+    background-color: #166177;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-start{
+    height: 100%;
+    width: 25%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.logo{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin: 10%;
+}
+.nav-mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    height: 100%;
+    width: 45%;
+    gap: 8%;
+    background-color: transparent;
+    font-size: 1em;
+    cursor: pointer;
+}
+.nav-mid{
+    color:#deeef4;
+}
+.nav-mid h3:hover{
+    color: #47c8bf;
+}
+.nav-end{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    background-color: transparent;
+}
+.searchbox{
+    height: 40%;
+    width: 76%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.search-area{
+    height: 100%;
+    width: 85%;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 3%;
+}
+.search-button{
+    height: 100%;
+    width: 12%;
+    background-color: #deeef4;
+    border: transparent;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.signin{
+    height: 40%;
+    width: 15%;
+    background-color: #deeef4;
+    border-radius: 8px;
+}
+.signin button{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+
+
+
+.cardData{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    margin: 0.8%;
+    background-color: #deeef4;
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.card img{
+    width: 100%;
+    height: 55%;
+}
+.card h3,p{
+    margin: 2%;
+}
+.category{
+    position: relative;
+    font-size: 0.6rem;
+    /* color: black; */
+    /* width: 100%;
+    height: 10%; */
+    padding-left: 2%;
+    margin: 2% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px) {
+    .nav-start{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 25%;
+    }
+    .logo{
+        height: 50%;
+        width: 80%;
+        margin:0 10%;
+    }
+    .nav-mid{
+        display: none;
+    }
+    .nav-end{
+        height: 100%;
+        width:75%; 
+        display: flex;
+        justify-content: end;
+    }
+    .search-area{
+        height: 70%;
+        width: 100%;
+    }
+    .search-button{
+        height: 70%;
+        width: 20%;
+        font-size: 1em;
+    }
+    .signin{
+        height: 35%;
+        width: 18%;
+        font-size: 0.8em;
+        margin: 0 2%;
+    }
+    .card{
+        height: 400px;
+        width: 100%;
+        margin: 2% 1%;
+        background-color: #deeef4;
+        overflow: hidden;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .card img{
+        width: 100%;
+        height: 55%;
+    }
+    .card h3,p{
+        margin: 2%;
+    }  
+}
+
+@media (max-width:1100px) {
+    .nav-end{
+        display: flex;
+        justify-content: end;
+    }
+    .searchbox{
+        height: 100%;
+        width: 70%;
+    }
+    .search-area{
+        height: 35%;
+        width: 100%;
+    }
+    .search-button{
+        height: 35%;
+        width: 20%;
+        font-size: 1em;
+    }
+    .signin{
+        height: 35%;
+        width: 20%;
+        font-size: 0.8em;
+        margin: 0 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

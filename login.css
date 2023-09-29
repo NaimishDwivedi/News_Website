@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+  background-color:#166177;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color:#bfdde9 ;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px #fff;
+  width: 350px;
+  padding: 30px;
+  text-align: center;
+}
+
+.login-container img {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #000;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #deeef4;
+  background-color: transparent;
+  color: #e1fd74;
+  font-family: "Bricolage Grotesque", sans-serif;
+  transition: border-bottom-color 0.3s ease-in-out;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom-color: #fff; /* Set it to the same color as the initial state */
+}
+
+button {
+  background-color: #47c8bf;
+  color: #24261a;
+  padding: 12px 120px; /* Increased padding to make the button wider */
+  border: none;
+  border-radius: 54px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 1px solid #166177;
+  color: #000;
+}

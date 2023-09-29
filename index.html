@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Hours</title>
+    <link rel="shortcut icon" href="n.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="nav-bar">
+            <div class="nav-start">
+                <a href="index.html">
+                    <img src="myweblogo-removebg-preview.png" class="logo" alt="">
+                </a>
+            </div>
+            <div class="nav-mid">
+                <h3 id="Cricket" onclick="navClick('world cup')">World Cup</h3>
+                <h3 id="Finances" onclick="navClick('Finances')">Finances</h3>
+                <h3 id="Politics" onclick="navClick('Politics')">Politics</h3>
+                <!-- <h3>Entertainment</h3>
+                <h3>Films</h3> -->
+            </div>
+            <div class="nav-end">
+                <div class="searchbox">
+                    <input type="text" class="search-area" id="inputData" value="" placeholder="Search here...">
+                    <button class="search-button" id="searchBtn"><i class="ri-search-2-line"></i></button>
+                </div>
+                <div class="signin"><a href="login.html"><button>Log In</button></a></div>
+            </div>
+        </div>
+
+
+        <div class="category">
+            <h1 id="type"></h1>
+        </div>
+        <div class="cardData">
+    
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html> 
